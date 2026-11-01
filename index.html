@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fold Airlines · Envatech</title>
+<meta name="description" content="Fold Airlines: glide a paper plane from room to room. A game by Envatech.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --ink: #2d3a5a; --muted: #5c6780; --bg: #fbf8f2; --card: #ffffff; --line: #e6e1d6; --accent: #e8a33d; --accent-ink: #2d2208; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #eef1f8; --muted: #a9b2c6; --bg: #171c28; --card: #212839; --line: #323b51; --accent: #f0b456; --accent-ink: #2d2208; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 32px; text-align: center; }
+  .studio { color: var(--muted); letter-spacing: .12em; text-transform: uppercase; font-size: 13px; margin: 0 0 28px; }
+  img.icon { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+  h1 { font-size: 34px; margin: 20px 0 8px; }
+  .tagline { font-size: 18px; margin: 0 0 4px; }
+  .tagline.tr { color: var(--muted); font-size: 16px; }
+  .stores { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 28px 0 8px; }
+  .button { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 600; text-decoration: none; }
+  .button.primary { background: var(--accent); color: var(--accent-ink); }
+  .button.soon { border: 1px solid var(--line); color: var(--muted); }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; margin-top: 36px; }
+  section p { margin: 6px 0; }
+  a { color: inherit; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="studio">Envatech</p>
+  <img class="icon" src="icon.png" alt="Fold Airlines app icon">
+  <h1>Fold Airlines</h1>
+  <p class="tagline">Glide a paper plane from room to room. Swipe, dodge and see how far you fly!</p>
+  <p class="tagline tr">Kâğıt uçağını odadan odaya süzdür. Kaydır, engellerden kaç, ne kadar uçacaksın?</p>
+  <div class="stores">
+    <a class="button primary" href="https://play.google.com/store/apps/details?id=com.envatech.foldairlines">Get it on Google Play</a>
+    <span class="button soon">iPhone: coming soon</span>
+  </div>
+  <section>
+    <p><a href="privacy/">Privacy Policy · Gizlilik Politikası</a></p>
+    <p>Contact · İletişim: <a href="mailto:envatech.game@gmail.com">envatech.game@gmail.com</a></p>
+  </section>
+</main>
+<footer>© 2026 Envatech</footer>
+</body>
+</html>
